@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+ 
+
+}
+::-webkit-scrollbar{
+  display: none;
+}
+@media screen and (max-width: 500px){
+  .timebar{
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 400px){
+  .timeFont{
+   font-size: 10px;
+  }
+  .head-1{
+    font-size: 15px;
+ 
+  }
+}
